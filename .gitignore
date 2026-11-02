@@ -1,4 +1,6 @@
 __pycache__/
 *.pyc
 .DS_Store
-*.bin
+
+# 固件体积大，用 Git LFS 管理
+# 如果不用 LFS，这行会阻止上传
