@@ -37,6 +37,14 @@ ssh -o HostKeyAlgorithms=+ssh-rsa -o PubkeyAcceptedAlgorithms=+ssh-rsa root@192.
 | [skill/QUICKSTART.md](skill/QUICKSTART.md) | 速查卡，急着动手看这个 |
 | [skill/scripts/rd08.py](skill/scripts/rd08.py) | 配套脚本，零依赖（纯 Python 3 标准库） |
 | [README-full.md](README-full.md) | 更详细的原始教程（含分区备份、自动更新关闭、固件回退） |
+| [固件恢复-MIWIFIRepairTool.md](固件恢复-MIWIFIRepairTool.md) | **救砖教程** — 用官方工具 + 本仓库固件刷回 1.1.96 |
+
+## 配套资源
+
+| 路径 | 内容 |
+|---|---|
+| [firmware/](firmware/) | 官方固件镜像 `miwifi_rd08_firmware_708c2_1.1.96.bin`（40.38 MB） |
+| [tools/](tools/) | `MIWIFIRepairTool.x86.zip` — 小米官方救砖工具 |
 
 ## 核心原理（一句话）
 
